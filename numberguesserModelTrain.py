@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
-#set podataka za našu aplikaciju, slike brojeva u 24x24 formatu
+#set podataka za našu aplikaciju, slike brojeva u 28x28 formatu
 mnist = tf.keras.datasets.mnist
 
 #dijelimo na testing i training podatke
